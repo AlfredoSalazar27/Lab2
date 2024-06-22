@@ -51,7 +51,7 @@ class ProductosController{
             if(!categoria){
                 return res.status(400).json({message:"Debe indicar la categoria del producto."})
             }
-
+    
             //reglas de negocio
 
             //valalir si el procudto ya existe
